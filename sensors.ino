@@ -17,7 +17,7 @@ void setup() {
 }
 
 void loop() {
-  sensor.takeMeasurements();
+  sensor.takeMeasurementsWithBulb();
   //Prints all measurements
   if (sensor.getVersion() == SENSORTYPE_AS7262)
   {
