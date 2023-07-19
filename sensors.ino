@@ -12,7 +12,7 @@ void setup() {
   if (sensor.getVersion() == SENSORTYPE_AS7262) {
     Serial.print("Violet,Blue,Green,Yellow,Orange,Red\n");
   } else {
-    
+    Serial.print("R,S,T,U,V,W\n");
   }
 }
 
