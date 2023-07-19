@@ -10,7 +10,7 @@ void setup() {
 
   // Print out the columns for the csv
   if (sensor.getVersion() == SENSORTYPE_AS7262) {
-    Serial.print("Violet;Blue;Green;Yellow;Orange;Red\n");
+    Serial.print("Violet,Blue,Green,Yellow,Orange,Red\n");
   } else {
     
   }
